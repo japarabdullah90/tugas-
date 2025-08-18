@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="bg-purple-500 shadow-md">
+            <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+                <a href="#" class="text-lg font-bold text-yellow-300">Work-Out</a>
+                <input type="checkbox" id="menu-toggle" class="hidden peer">
+
+                <label for="menu-toggle" class="md:hidden cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                    </svg>
+                </label>
+                <div class="hidden peer-checked:flex peer-checked:flex-col peer-checked:absolute peer-checked:top-16 peer-checked:left-0 peer-checked:w-full peer-checked:bg-white peer-checked:shadow-md md:flex md:items-center md:space-x-8 md:relative md:top-auto md:left-auto md:w-auto md:bg-transparent md:shadow-none">
+                    <a href="#" class="block py-2 px-4 font-bold text-yellow-300 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-white">Home</a>
+                    <a href="#" class="block py-2 px-4 font-bold text-yellow-300 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-white">Tutorial</a>
+                    <a href="#" class="block py-2 px-4 font-bold text-yellow-300 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-white">About</a>
+                    <a href="#" class="block py-2 px-4 font-bold text-yellow-300 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-white">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <section class="bg-gray-900 text-center py-20">
+            <div class="flex items-center justify-center h-screen container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+                <div class="text-4xl md:text-5xl font-extrabold text-white leading-tight">
+                    <h1>Solusi Inovatif untuk Work-Out Di rumah</h1>
+                    <p class="mt-4 text-lg text-gray-400">Kami menyediakan berbagai Tutorial Work-Out Untuk Melatih Fisik Dan Berkembang</p>
+                    <a href="#" class="mt-8 border border-black inline-block bg-gray-900 font-bold text-lg rounded-lg px-8 py-3 hover:bg-orange-400 transition duration-300">Mulai sekarang</a>
+                </div>
+
+                <div>
+                    <img src="./assets/download (1).jpeg" class="rounded-lg shadow-xl w-full" alt="">
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-gray-800 text-gray-300 py-10">
+            <div class="container px-6 mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8  text-center md:text-left">
+                    <div>
+                        <h4 class="font-bold text-lg text-white mt-2 mb-4">Contact</h4>
+                        <p class="blok text-sm hover:text-white">Instagram</p>
+                        <p class="blok text-sm hover:text-white">Whatsapp</p>
+                        <p class="blok text-sm hover:text-white">tiktok</p>
+                        <p class="blok text-sm hover:text-white">instagram</p>
+                    </div>
+                        <div> 
+                            <h4 class="font-bold text-lg text-white mt-2 mb-4">Kategori Work-Out</h4>
+                            <a href="#" class="block mt-2 text-sm hover:text-white">Cardio</a>
+                            <a href="#" class="block mt-2 text-sm hover:text-white">Strength</a>
+                            <a href="#" class="block mt-2 text-sm hover:text-white">Metcon</a>
+                            <a href="#" class="block mt-2 text-sm hover:text-white">Stretching</a>
+                            <a href="#" class="block mt-2 text-sm hover:text-white">Yoga</a>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg text-white mt-2 mb-4">Legal</h4>
+                            <a href="#" class="block mt-2 text-sm hover:text-white">Kebijakan Privasi</a>
+                            <a href="#" class="block mt-2 text-sm hover:text-white">Syarat & Ketentuan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
